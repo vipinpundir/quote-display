@@ -1,0 +1,39 @@
+.Authors {
+  max-width: 900px;
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.Authors li {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  color: blue;
+}
+
+.Authors li:hover {
+  text-decoration: underline;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.Quotes h1 {
+  text-align: center;
+}
+
+.Navbar {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  margin: 20px;
+}
+
+.Navbar li {
+  list-style: none;
+
+}

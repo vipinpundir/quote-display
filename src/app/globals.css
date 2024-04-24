@@ -105,3 +105,26 @@ a {
     color-scheme: dark;
   }
 }
+
+.App{
+  width: fit-content;
+  margin: auto;
+}
+.App h1{
+  margin: 20px;
+}
+.Navbar {
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  margin: 20px;
+}
+
+.Navbar li {
+  list-style: none;
+
+}
+.Navbar li:hover{
+  border-bottom: 2px solid blueviolet;
+}
